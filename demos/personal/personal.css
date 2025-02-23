@@ -267,7 +267,7 @@
 	display: inline-block;
 	width: 1.125rem;
 	font-weight: bold;
-	color: var(--bs-warning);
+	color: var(--main-color);
 	top: -1px;
 }
 

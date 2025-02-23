@@ -33561,7 +33561,12 @@ body.dark {
 /*# sourceMappingURL=style.css.map */
 
 
-.mentorship-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.card {
+  border: 4px solid var(--main-color);
+  padding: 12px;
+}
+
+.button {
+  background-color: var(--main-color);
+  border-radius: 12px;
 }
