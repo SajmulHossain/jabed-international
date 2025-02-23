@@ -93,7 +93,7 @@
 
 .text-fill-effect {
 	--cnvs-text-fill-placeholder: rgba(var(--cnvs-contrast-rgb), 0.1);
-	--cnvs-text-fill-color: linear-gradient(to right, var(--cnvs-contrast-1000), var(--cnvs-contrast-1000));
+	--cnvs-text-fill-color: linear-gradient(to right, var(--main-color), var(--cnvs-contrast-1000));
 	-webkit-text-fill-color: var(--cnvs-text-fill-placeholder);
 	position: relative;
 	background-image: var(--cnvs-text-fill-color);
