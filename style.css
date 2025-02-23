@@ -1,0 +1,44 @@
+:root {
+  --main-color: #2e57bf;
+}
+
+/* *common css */
+section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.button {
+  background-color: var(--main-color);
+  border: none;
+  padding: 8px 16px;
+  font-weight: 600;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* *header */
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
