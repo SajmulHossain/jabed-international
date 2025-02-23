@@ -33570,3 +33570,7 @@ body.dark {
   background-color: var(--main-color);
   border-radius: 12px;
 }
+
+.section-blogs+.viewport-detect a:hover {
+  color: var(--main-color);
+}
