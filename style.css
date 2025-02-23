@@ -33559,3 +33559,9 @@ body.dark {
   background-color: rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.mentorship-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
